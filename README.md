@@ -62,7 +62,7 @@ Where:
 
 ## Next Steps
 
-- Extend to include*interaction terms (e.g., cross-channel synergies).
+- Extend to include interaction terms (e.g., cross-channel synergies).
 - Adjust seasonality and incorporate lag effects to better reflect real-world dynamics.
 - Test against real data (e.g., advertising datasets, panel surveys).
 
