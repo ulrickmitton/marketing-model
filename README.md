@@ -1,10 +1,10 @@
-# 📊 Marketing Mix Modeling: Estimating ROI Across Media Channels
+# Estimating ROI Across Media Channels
 
 This project builds a **marketing mix model (MMM)** to evaluate the effectiveness and ROI of four media channels—**TV, Digital, Print, and Social**—in driving product sales. The goal is to simulate and analyze how spending on each channel influences sales, and estimate the cost of increasing sales by 1% through each medium.
 
 ---
 
-## 🔍 Objective
+## Objective
 
 Using simulated data, this notebook demonstrates:
 
@@ -15,20 +15,17 @@ Using simulated data, this notebook demonstrates:
 
 ---
 
-## 🧠 Methods
+## Methods
 
 - **Data Simulation:** Synthetic data generated to reflect realistic ranges of media spend and their effect on sales.
-- **Log-Linear OLS Regression:** Models the marginal impact of spend while capturing diminishing returns.
-- **Robust Standard Errors (HC1):** Corrects for heteroskedasticity.
-- **Multicollinearity Checks:** VIF scores calculated to ensure stable estimates.
+- **OLS Regression:** Settled on a log-linear specification after an initial iteration.
 
 ---
 
-## 📉 Key Insights
+## Findings
 
-- **Model Fit:** Raw sales modeled with logged spend showed strong fit (R² = 0.994).
-- **ROI Estimation:** A custom exponential function calculates how much spend is required to generate a 1% increase in sales.
-- **Unexpected Result:** Despite lower overall spend, Print showed the most cost-effective ROI per 1% sales gain—highlighting the value of smaller, targeted channels.
+- Marketing relationships are often non-linaar; log transformation resulted in better fit.
+- Important to be congnizant of saturation (i.e diminishing marginal effect) of additional ad spend
 
 ---
 
@@ -54,10 +51,6 @@ Where:
 
 ---
 
-## Stack
-
-- Python (Pandas, NumPy, Matplotlib, Statsmodels)
-- Jupyter Notebook
 
 ---
 
@@ -75,7 +68,14 @@ Where:
 
 ---
 
-## 📬 Contact
+## Stack
 
-Questions or feedback? Feel free to connect via [LinkedIn](https://www.linkedin.com/ulrickmitton) or open an issue.
+- Python (Pandas, NumPy, Matplotlib, Statsmodels)
+- Jupyter Notebook
+
+----
+
+## Contact
+LinkedIn: [LinkedIn](https://www.linkedin.com/ulrickmitton) 
+email: mitton.ulrick@gmail.com
 
