@@ -44,13 +44,13 @@ Using simulated data, this notebook demonstrates:
 
 The cost to achieve a 1% lift in sales via channel \( i \) is:
 
-\[
-\text{Cost}_i = \bar{x}_i \cdot \left( e^{\frac{0.01}{\beta_i}} - 1 \right)
-\]
+
+Cost_i = bar{x}_i * ( e^(.01/beta_i) - 1 )
+
 
 Where:
-- \( \bar{x}_i \) = average spend for channel \( i \)
-- \( \beta_i \) = estimated coefficient for logged media spend from the regression
+- bar{x}_i = average spend for channel \( i \)
+- beta_i = estimated coefficient for logged media spend from the regression
 
 ---
 
